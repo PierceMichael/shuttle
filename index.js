@@ -4,6 +4,7 @@ import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { dynamicPath } from "@nebula-services/dynamic";
 import express from "express";
 
+<script src="build.js"></script>
 const routes = [
 	["/", "index"],
 	["/math", "games"],
