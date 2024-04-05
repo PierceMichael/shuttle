@@ -72,9 +72,6 @@ function resolveURL(url) {
 }
 
 function proxy(url) {
-    // Show the ad before proxying the URL
-    show_videoad();
-
     document.getElementById("align").style.display = "flex";
     document.querySelector(".sidebar").style.display = "none";
     registerSW().then(worker => {
